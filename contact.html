@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bunhor" />
+    <meta name="keywords"
+        content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+    <meta name="author" content="bunhor" />
+
+    <!-- Online fontawsome -->
+    <script src="https://kit.fontawesome.com/aa84ae529a.js" crossorigin="anonymous"></script>
+
+    <title>Bunhor - Personal</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+</head>
+
+<body>
+    <!--contains all the div-->
+    <div id="all">
+        <!--mouse  follower-->
+        <div class="cursor"></div>
+        <!--mouse  follower-->
+        <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+
+        <!--about-->
+        <div>
+            <!--Menu Links-->
+            <div id="navigation-content" class="menu-links ">
+                <a href="index.html" data-text="HOME" id="home-link" style="margin: 5px;"><i
+                        class="fa-solid fa-house fa-lg menu-icon-style">
+                    </i>
+
+                </a>
+
+                <a href="about.html" data-text="ABOUT" id="about-link" style="margin: 5px;"><i
+                        class="fa-solid fa-address-card fa-lg menu-icon-style"></i></a>
+
+                <a href="blog.html" data-text="BLOG" id="blog-link" style="margin: 5px;"><i
+                        class="fa-solid fa-earth-asia fa-lg menu-icon-style"></i></a>
+
+                <a href="portfolio.html" data-text="PORTFOLIO" id="portfolio-link" style="margin: 5px;"><i
+                        class="fa-solid fa-medal fa-lg menu-icon-style"></i></a>
+                <a href="contact.html" data-text="CONTACT" id="contact-link" style="margin: 5px;"><i
+                        class="fa-solid fa-headset fa-lg menu-icon-style"></i></a>
+            </div>
+            <!--Menu Links end-->
+
+            <!--contact-->
+            <div>
+                <div class="color-changer" style="padding: 100px;">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                </div>
+                <div class="contact-header">Contact <span class="color"> Me</span>
+                    <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+                </div>
+                <div class="contact-content">
+                    <!--Contact form-->
+                    <div class="contact-form">
+                        <div class="form-header">
+                            Message Me
+                        </div>
+                        <form id="myForm" action="#">
+                            <div class="input-line">
+                                <input id="name" type="text" placeholder="Name" class="input-name">
+                                <input id="email" type="email" placeholder="Email" class="input-name">
+                            </div>
+                            <input type="text" id="subject" placeholder="subject" class="input-subject">
+                            <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                            <button type="button" id="submit" value="send">Submit</button>
+                        </form>
+
+                    </div>
+                    <!--Contact form-->
+                    <!--Contact information-->
+                    <div class="contact-info">
+                        <div class="contact-info-header">
+                            Contact Info
+                        </div>
+                        <div class="contact-info-content">
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Name</h6>
+                                    <p>Deb Bunhor</p>
+                                </div>
+                            </div>
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Location</h6>
+                                    <p>New York, USA</p>
+                                </div>
+                            </div>
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Call</h6>
+                                    <p>+9865376531</p>
+                                </div>
+                            </div>
+
+                            <div class="contect-info-content-line">
+                                <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                                <div class="contact-info-icon-text">
+                                    <h6>Email</h6>
+                                    <p>Info@example.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Contact information end-->
+                    </div>
+                </div>
+            </div>
+            <!--contact end-->
+
+
+        </div>
+        <!--all the divisions-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/index.js"></script>
+        <!--particles script-->
+        <script>
+            particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+        </script>
+
+</body>
+
+</html>
