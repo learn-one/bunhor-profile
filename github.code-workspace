@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../9_Learning/github"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../../9_Learning/Java/basic java"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "bunhor-profile"
+  }
+}
